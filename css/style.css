@@ -1,0 +1,168 @@
+/* common classes */
+.divHeight{
+	height:100%;
+}
+
+.mainTextColor {
+	color: white;
+}
+
+
+#main{
+	background-image: url("../image/header.jpg");
+	background-size: cover;
+
+}
+#main .container-fluid{
+	padding: 0px;
+}
+#main .navbar{
+	border-radius: 0px;
+}
+
+#main h3 {
+	font-style: italic;
+	font-size: 3em;
+}
+#main h1 {
+	font-size: 5em;
+	font-weight: 700;
+}
+#main .btn {
+	border-radius: 0;
+	padding: 20px;
+}
+#main .content{
+	padding: 50px 0;
+}
+
+
+#services {
+}
+
+#services .mainColor{
+background-color: white;
+}
+#services h1 {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+#services i{
+	color: white;
+	background-color: #FED136;
+	border-radius: 100%;
+	padding:30px;
+}
+
+#services h6 {
+	padding: 20px 0;
+	font-style: italic;
+
+}
+#services .content {
+	padding: 50px 0;
+}
+
+
+
+#portfolio {
+	
+}
+#portfolio .mainColor{
+	background-color: lightgray;
+}
+
+#portfolio .content {
+	padding: 50px 0;
+}
+
+#portfolio h1 {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+#portfolio h6 {
+	padding: 20px 0;
+	font-style: italic;
+}
+
+#about{
+	height: 1000px auto;
+	display: inline-block;
+}
+#about .mainColor{
+	background-color: #FFFFFF;
+}
+#about div h1{
+	
+}
+#about img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+.about1, .about3{
+	float: right;
+	text-align: right;
+	margin-left: auto;
+}
+.about2, .about4{
+	float: right;
+	text-align: left;
+	margin-right:5%;
+
+}
+
+#about div p, #team div p {
+	padding: 20px 0;
+	font-style: italic;
+}
+#about div h1, #team div h1{
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.divabout4{
+	float: right;
+	/*background-color: green;*/
+	display: inline-block;
+}
+.about5 img{
+	background-color: #FED136;
+	margin-left: 45%;
+}
+#team{
+	height: 800px auto;
+}
+#team .mainColor{
+	background-color: #EEEEEE;
+}
+#team img{
+	width: 300px ;
+	height: 300px auto ;
+	border-radius: 50%;
+	float: center;
+}
+.team1{
+	/*display: inline-block;*/
+	float: auto;
+	margin-left: 17.5%;
+	margin-bottom: 200px;
+}
+#contact{
+	height: 500px;
+}
+#contact .mainColor{
+	background-color: gray;
+}
+.mail, .phone, .name{
+	float: right;
+	height: 65px;
+	display: inline-block;
+}
+.contact1{
+	height: 240px;
+}
+.sendnew{
+	vertical-align: middle;
+	text-align: center;
+}
